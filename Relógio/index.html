@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="relogio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <script src="relogio.js"></script>
+    <title>Relógio</title>
+</head>
+<body onload="primeiroExecute()">
+   <article id="relogio">
+
+        <section id="horas" class="blocos">
+            <div data-valor="horas" class="superior"></div>
+            <div class="inferior">Horas</div>
+        </section>
+
+        <section class="blocos">
+            <div data-valor="minutos" class="superior"></div>
+            <div class="inferior">Minutos</div>
+        </section>
+
+        <section id="segundos" class="blocos">
+            <div data-valor="segundos" class="superior"></div>
+            <div class="inferior">Segundos</div>
+        </section>
+
+   </article>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Share Tech Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right bottom, rgb(61, 0, 131) 1%, rgb(110, 26, 145) 48%, rgb(168, 70, 173) 100%);
+}
+
+#relogio {
+  width: 45%;
+  min-width: 360px;
+  height: 25%;
+  min-height: 160px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
+}
+#relogio .blocos {
+  width: 25%;
+  min-width: 100px;
+  background-color: black;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#relogio .superior {
+  margin-top: 15%;
+  font-size: 3.5rem;
+  color: white;
+}
+#relogio .inferior {
+  margin-top: 10%;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}/*# sourceMappingURL=relogio.css.map */

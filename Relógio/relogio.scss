@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+body{width:100vw;height:100vh;font-size:16px;
+font-family: 'Share Tech Mono', monospace;
+display: flex;align-items: center;justify-content: center;
+background: linear-gradient(to right bottom,rgba(61,0,131,1) 1%, rgba(110,26,145,1) 48%, rgba(168,70,173,1) 100%);}
+
+#relogio{width:45%;min-width:360px;height:25%;min-height:160px;
+display:flex;justify-content:space-around;
+box-shadow: 0px 6px 10px rgba(0,0,0,.8);
+    .blocos{width:25%;min-width:100px;background-color: black;
+    border-radius:20px;
+    margin:10px;        
+    display: flex;flex-direction: column;align-items:center;}
+    .superior{margin-top:15%;font-size: 3.5rem;color:white;}
+    .inferior{margin-top:10%;font-size: 1.2rem;color:whitesmoke;}
+        };
+
